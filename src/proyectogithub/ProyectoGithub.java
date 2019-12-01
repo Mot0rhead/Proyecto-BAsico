@@ -8,7 +8,7 @@ package proyectogithub;
 
 public class ProyectoGithub {
 
-public static String veredicto(String valor1, String valor2) {
+private static String veredicto(String valor1, String valor2) {
     
   if (valor1.equals(valor2)) {
    return "Perfecto. Has tenido buen criterio.";
@@ -16,7 +16,12 @@ public static String veredicto(String valor1, String valor2) {
 if (Integer.valueOf(valor1) < Integer.valueOf(valor2)){
    return "Has mejorado, o te ha llegado el éxito inesperado.";
 }
- return "Te has confiado. Falta realismo.";
+ return "Te has confiado. Falta realismo."; 
+ /**
+  * @author Jomathan
+  * @return El String segun si el valor n es igual a m
+  * Este metodo sirve para compara dos valores y retornar el String consiguient
+  */
 
 }
     public static void main(String[] args) {
