@@ -23,5 +23,8 @@ if (Integer.valueOf(valor1) < Integer.valueOf(valor2)){
         System.out.println("La calificacion de "+args[0]+" "+args[1]+" es: "+args[3]);
         veredicto(args[2],args[3]);
     }
-    
+    /**
+     * @author Jonathan
+     * @version 1.14.4
+     */
 }
